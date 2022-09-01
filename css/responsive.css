@@ -1,0 +1,139 @@
+@media only screen and (width:1440px) {
+    body {
+        background-size: 90% 100%;
+        background-position-x: -30px;
+    }
+
+    .title-logo {
+        width: 13rem;
+    }
+
+    .columns-illustrations img {
+        width: 105%;
+        margin-bottom: 3.7em;
+
+    }
+
+    .content-register {
+
+        margin-left: 3em;
+        margin-bottom: 6em;
+
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    body {
+        background-image: url(../images/bg-mobile.svg);
+        background-size: contain;
+    }
+
+    .wrapper {}
+
+    .title-logo {
+        width: 13rem;
+    }
+
+    .columns-illustrations img {
+        width: 105%;
+        margin-bottom: 3.7em;
+
+    }
+
+    .container-illutrations {
+        grid-column: 2;
+    }
+
+    .content-register {
+        grid-column: 2;
+        margin-left: 3em;
+        margin-bottom: 6em;
+
+    }
+}
+
+@media only screen and (max-width:800px) {
+    body {
+        background-image: url(../images/bg-mobile.svg);
+
+    }
+
+   .title-register {
+        font-size: 20pt;
+        line-height: 25px;
+    }
+
+    .columns-illustrations {
+        grid-column: 1;
+        display: flex;
+        flex-direction: column;
+        width: 96%;
+    }
+
+    .columns-register {
+        grid-column: 1;
+        height: 20vh;
+        margin-top: 2.5em;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .content-register {
+        align-items: center;
+        height: 0;
+        text-align: center;
+        margin-left: 0em;
+    }
+
+    .columns-social {
+        justify-content: center;
+        padding: 0;
+        margin-top: 4em;
+        padding-left: 0em;
+        width: 100%;
+    }
+
+    @media only screen and (max-width:420px) {
+        .wrapper {
+            padding-inline: 2em;
+            padding-block: 4em;
+            gap: 0;
+        }
+
+        h1 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 17pt;
+            font-weight: 400;
+        }
+
+        .columns-illustrations img {
+            width: 100%;
+            margin-bottom: 8em;
+        }
+
+        .title-logo {
+            width: 10rem;
+            height: 0;
+            margin-bottom: 2em;
+        }
+
+        .columns-register {
+            grid-column: 1;
+            width: 100%;
+            margin-left: 0em;
+        }
+
+        .content-register {
+            margin-left: 0em;
+        }
+
+        .columns-social {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 0.5em;
+            padding: 0;
+            width: 100%;
+        }
+    }
+}

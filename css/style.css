@@ -1,0 +1,113 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: var(--primary-color);
+    background-image: url(../images/bg-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.title-register {
+    font-family: 'Poppins', sans-serif;
+    font-size: 29pt;
+    line-height: 50px;
+}
+
+.wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+    height: 100vh;
+    padding-inline: 4em;
+    padding-block: 4em;
+    gap: 1.5em;
+    display: grid;
+}
+
+.columns-illustrations {
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em 0em;
+}
+
+.columns-illustrations img {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.title-logo {
+    width: 11rem;
+}
+
+.columns-register {
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 80%;
+}
+
+.content-register {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    height: 100%;
+    margin-left: 1.5em;
+    color: var(--lettering-white);
+    margin-bottom: 3em;
+}
+
+.columns-social {
+    display: flex;
+    justify-content: right;
+    gap: 1em;
+    padding-right: 2em;
+    margin-bottom: 0.5em;
+}
+
+.row-media-1 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    display: flex;
+    gap: 0.8em;
+    background-image: url(../images/facebook.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.row-media-2 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    display: flex;
+    gap: 0.8em;
+    background-image: url(../images/twitter.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.row-media-3 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    display: flex;
+    gap: 0.8em;
+    background-image: url(../images/instagram.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.row-media img {
+    padding: 7px;
+}
+
+.btn-register {
+    padding-inline: 3.4em;
+    padding-block: 0.9em;
+    border-radius: 2rem;
+    font-size: 13pt;
+    color: var(--primary-color);
+}
